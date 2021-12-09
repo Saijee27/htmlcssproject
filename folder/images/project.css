@@ -28,9 +28,9 @@ img{
     border:2px solid rgb(0, 255, 179);
 }
 @media only screen and (min-width:40px) and (max-width:720px){
-.card{
+.parent>.card{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     width:90%;
     background-color:rgb(199, 25, 161);   
 }
